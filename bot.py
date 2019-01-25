@@ -142,14 +142,6 @@ async def decrypt(ctx,cipher,key):
         except:
             await ctx.send("izzy fix ur code it ran an error")
 
-#cursed functions
-
-@bot.command()
-async def ichismooch(ctx):
-    await ctx.send("Ichimatsu gives "+str(ctx.author.mention)+" a smooch.")
-
-
-
 
 
 #GAMES ETC####################################################
